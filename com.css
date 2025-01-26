@@ -1,0 +1,56 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Success Container */
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 2em;
+}
+
+.message-box {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.message-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.message-box p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+    display: inline-block;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
