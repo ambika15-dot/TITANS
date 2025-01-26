@@ -1,4 +1,4 @@
-# [Project Name] 🎯
+# WMC SAFTY 🎯
 
 
 ## Basic Details
@@ -6,21 +6,30 @@
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Ambika Radhakrishnan - ICCS COLLEGE OF ENGINEERING AND MANAGEMENT
+- Member 2: Sandhra Reji - ICCS COLLEGE OF ENGINEERING AND MANAGEMENT
+  -Member 3 : Anusritha Abhilash - ICCS COLLEGE OF ENGINEERING AND MANAGEMENT
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://titans-2h15.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+Ensuring safety of humans in critical situations,emergencies using a website
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+People’s safety is a critical concern, especially in
+situations where immediate assistance is required.
+Traditional methods of seeking help, such as calling
+the police or informing family members, may be
+inefficient or impossible in emergencies
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+This project aims to develop a website for human safety application that allows users to register with their
+personal details (name, address, phone number, photo, etc.) and provide real-time live location updates.
+In case of trouble, the app will automatically trigger an SOS alert to the nearest police station, sharing the
+user
+s live location and distress signal to ensure timely assistance.
+The solution bridges the gap between technology and safety by offering a reliable, accessible, and userfriendly platform for quick response during emergencies.
 
 ## Technical Details
 ### Technologies/Components Used
