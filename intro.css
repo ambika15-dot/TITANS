@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Welcome Page Styling */
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Take 80% of the viewport height */
+    background-color: #fff;
+}
+
+.welcome-container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.welcome p {
+    color: #555;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+
+/* Header */
+.header {
+    background-color: #41bdf3;
+    color: white;
+    text-align: center;
+    padding: 2em 0; /* Add padding for better spacing */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+    height: 20vh; /* Adjust the height of the header to center content vertically */
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+ 
+/* Sign Up Option */
+.auth-options {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.auth-options a {
+    text-decoration: none;
+    background-color: #1ba8cf;
+    color: white;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    width: 180px; /* Set a fixed width for buttons */
+    text-align: center;
+}
+
+.auth-options a:hover {
+    background-color: #ff5a5a;
+}
+
+/* Guest Option */
+.guest-options {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1.5em;
+}
+
+.guest-options a {
+    text-decoration: none;
+    background-color: #f76c6c;
+    color: white;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    width: 180px; /* Set a fixed width for buttons */
+    text-align: center;
+}
+
+.guest-options a:hover {
+    background-color: #ff5a5a;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+}

@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #f76c6c;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* Verification Section */
+.verification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.verification-container {
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.verification-container h2 {
+    margin-bottom: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+.verification-container p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 1.5em;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+form button {
+    background-color: #f76c6c;
+    color: white;
+    border: none;
+    padding: 1em 1.5em;
+    margin-top: 1.5em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1a9ccb;
+}
+
+/* Resend Link */
+.resend-link {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.resend-link a {
+    color: #f76c6c;
+    text-decoration: none;
+}
+
+.resend-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+}

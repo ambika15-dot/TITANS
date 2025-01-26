@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WMC Safety</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="header">
+        <h1>WMC Safety</h1>
+        <p>Login to your account</p>
+    </header>
+
+    <section class="login">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit" onclick="location.href='verification.html'" class="btn">Login</button>
+            </form>
+
+            <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>WMC Safety &copy; 2025</p>
+    </footer>
+</body>
+</html>
